@@ -1,0 +1,65 @@
+#myInput{
+    width:270px;
+    height:30px;
+    border-radius: 100px;
+    border:2px solid rgb(51, 173, 255);
+    padding-left: 10px;
+   
+}
+
+.top{
+    margin-top: 30px;
+}
+button{
+    width:135px;
+    height:40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid rgb(51, 173, 255);
+    background-color:rgb(179, 224, 255);
+    color:rgb(51, 173, 255);
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+
+
+button:active{
+    transform: translateY(0.1px);
+    background-color:rgb(51, 173, 255);
+    color:rgb(179, 224, 255);
+   
+}
+
+.padd{
+    margin-left: 10px;
+}
+
+.tog{
+    margin-top: 80px;
+    border:2px solid rgb(51, 173, 255);
+    color:rgb(51, 173, 255);
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    margin-left: 50px;
+   text-align: center;
+
+}
+
+#togg{
+  margin-top: 50px;
+  
+  
+}
+
+
+
+#new{
+    margin-top: 100px;
+}
+
+#diamond_stars{
+    margin-top:15px;
+    margin-left: 200px;
+}
