@@ -23,10 +23,13 @@ function convert() {
     let togg = document.getElementById("togg");
     togg.classList.add("tog");
     let f=((c * 1.8) + 32);
-    degree=(`${c}℃=${f}°F`);
+    degree=(`${c}℃ \n  = \n ${f}°F`);
     togg.value=degree;
-    return alert(degree)
-
+   // togg.innerHTML=(`${c}℃ \n  = \n ${f}°F`)
+    for( let i=0;i<togg.length; i++){
+        togg[i].style.fontSize= "20px";
+    }
+    alert(degree) 
     }
 
 
